@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-devesharp",
-  "version": "1.5.0",
+  "name": "@devesharp/typescript",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
