@@ -19,7 +19,7 @@ yarn add @typescript-eslint/eslint-plugin@^2.7.0 \
 	@devesharp/eslint-config-typescript \
 	eslint \
 	prettier \
-	typescript 
+	typescript
 	-D
 ```
 
@@ -27,10 +27,9 @@ Within your ESLint config file:
 
 ```js
 module.exports = {
-    extends: ["@devesharp/typescript"]
+    extends: ['@devesharp/typescript'],
 };
 ```
-
 
 Within your Prettier config file `.prettierrc.js`:
 
