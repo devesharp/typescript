@@ -43,3 +43,30 @@ module.exports = {
     tabWidth: 4,
 };
 ```
+
+## Without React
+
+Install dependencies.
+
+```bash
+yarn add @typescript-eslint/eslint-plugin@^2.7.0 \
+	eslint-config-airbnb-typescript@^6.3.1 \
+	eslint-config-prettier@^6.4.0 \
+	eslint-plugin-import@^2.18.2 \
+	eslint-plugin-jest@^22.17.0 \
+	eslint-plugin-jsx-a11y@^6.2.3 \
+	eslint-plugin-prettier@^3.1.1 \
+	@devesharp/eslint-config-typescript \
+	eslint \
+	prettier \
+	typescript
+	-D
+```
+
+Within your ESLint config file:
+
+```js
+module.exports = {
+    extends: ['@devesharp/typescript/base'],
+};
+```
