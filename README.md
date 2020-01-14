@@ -44,7 +44,3 @@ module.exports = {
     tabWidth: 4,
 };
 ```
-
-## License
-
-Open source [licensed as MIT](https://github.com/iamturns/eslint-config-airbnb-typescript/blob/master/LICENSE).
