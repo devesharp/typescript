@@ -19,7 +19,7 @@ yarn add @typescript-eslint/eslint-plugin@^2.7.0 \
 	@devesharp/eslint-config-typescript \
 	eslint \
 	prettier \
-	typescript
+	typescript \
 	-D
 ```
 
@@ -59,7 +59,7 @@ yarn add @typescript-eslint/eslint-plugin@^2.7.0 \
 	@devesharp/eslint-config-typescript \
 	eslint \
 	prettier \
-	typescript
+	typescript \
 	-D
 ```
 
