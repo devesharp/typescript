@@ -44,6 +44,22 @@ module.exports = {
 };
 ```
 
+Within your `.editorconfig`:
+```yml
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+charset = utf-8
+trim_trailing_whitespace = false
+insert_final_newline = false
+
+[*.yml]
+indent_style = space
+indent_size = 4
+```
+
 ## Without React
 
 Install dependencies.
