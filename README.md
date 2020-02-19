@@ -23,7 +23,7 @@ yarn add @typescript-eslint/eslint-plugin@^2.7.0 \
 	-D
 ```
 
-Within your ESLint config file:
+Create a `.eslintrc.js` with:
 
 ```js
 module.exports = {
@@ -63,7 +63,7 @@ yarn add @typescript-eslint/eslint-plugin@^2.7.0 \
 	-D
 ```
 
-Within your ESLint config file:
+Create a `.eslintrc.js` with:
 
 ```js
 module.exports = {
