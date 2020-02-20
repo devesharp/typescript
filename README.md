@@ -16,6 +16,7 @@ yarn add @typescript-eslint/eslint-plugin@^2.7.0 \
 	eslint-plugin-prettier@^3.1.1 \
 	eslint-plugin-react@^7.15.1 \
 	eslint-plugin-react-hooks@^1.7 \
+	eslint-plugin-import-helpers@1.0.2 \
 	@devesharp/eslint-config-typescript \
 	eslint \
 	prettier \
@@ -45,6 +46,7 @@ module.exports = {
 ```
 
 Within your `.editorconfig`:
+
 ```yml
 root = true
 
