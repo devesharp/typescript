@@ -9,7 +9,7 @@ module.exports = {
         'plugin:prettier/recommended', // Enables eslint-plugin-prettier and displays prettier errors as ESLint errors. Make sure this is always the last configuration in the extends array.
         'prettier/react',
     ],
-    plugins: ['jest'],
+    plugins: ['jest', 'import-helpers'],
     parserOptions: {
         ecmaVersion: 2018, // Allows for the parsing of modern ECMAScript features
         sourceType: 'module', // Allows for the use of imports
@@ -38,5 +38,13 @@ module.exports = {
         'react/jsx-indent': 'off',
         'react/jsx-props-no-spreading': 'off', // habilitar <LoginScreen {...loginScreen} />
         'react/state-in-constructor': ['warn', 'always'],
+        // Import Helpers
+        'import-helpers/order-imports': [
+            'warn',
+            {
+                groups: ['/^react/', 'module', '/^@shared/', '/^@library/', ['parent', 'sibling', 'index']],
+                alphabetize: { order: 'asc', ignoreCase: true },
+            },
+        ],
     },
 };
