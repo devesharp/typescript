@@ -23,7 +23,20 @@ module.exports = {
         '@typescript-eslint/no-unused-vars': 'off',
         '@typescript-eslint/camelcase': ['error', { properties: 'always' }],
         '@typescript-eslint/explicit-member-accessibility': 'off',
-        '@typescript-eslint/interface-name-prefix': ['error', { prefixWithI: 'always' }],
+        //'@typescript-eslint/interface-name-prefix': ['error', { prefixWithI: 'always' }],
+        {
+          "@typescript-eslint/naming-convention": [
+            "error",
+            {
+              "selector": "interface",
+              "format": ["PascalCase"],
+              "custom": {
+                "regex": "^I[A-Z]",
+                "match": false
+              }
+            }
+          ]
+        },
         '@typescript-eslint/no-explicit-any': 'off',
         '@typescript-eslint/no-unused-vars': 'off',
         '@typescript-eslint/explicit-function-return-type': [
